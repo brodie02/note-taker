@@ -18,4 +18,11 @@ notes.post('/', (req, res) => {
     res.json(req.body);
 })
 
+notes.delete('/notes/:id', (req, res) => {
+    const note = findById(req.params.id, notesDb);
+
+    removeNote(note, notesDb);
+    res.json();
+});
+
 module.exports = notes

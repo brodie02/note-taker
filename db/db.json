@@ -1,21 +1,6 @@
-{
-  "notes": [
+[
     {
-      "title": "Test Title",
-      "text": "Test text"
-    },
-    {
-      "id": "f34bf939-2335-496c-813b-e13040426c79"
-    },
-    {
-      "title": "your mum",
-      "text": "text lol",
-      "id": "447216e4-b5b2-4ded-8911-35b4fe4c5245"
-    },
-    {
-      "title": "dedede",
-      "text": "dededed",
-      "id": "f05818e5-3d77-409c-bf1b-a7c383bd1090"
+        "title":"Test Title",
+        "text":"Test text"
     }
-  ]
-}
+]
