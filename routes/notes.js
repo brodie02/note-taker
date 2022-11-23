@@ -1,6 +1,7 @@
 const notes = require('express').Router()
 const { v4: uuidv4 } = require('uuid');
 const notesDb = require('../db/db.json')
+const { createNewNote, findById, editNote, removeNote } = require('../public/assets/js/notes');
 
 notes.get('/', (req, res) =>
     res.json(notesDb)
